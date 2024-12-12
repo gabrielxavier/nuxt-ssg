@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h1>Hello</h1>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <nav>
+      <ul>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li><NuxtLink to="/about">About</NuxtLink></li>
+      </ul>
+    </nav>
+    <NuxtPage />
   </div>
 </template>
